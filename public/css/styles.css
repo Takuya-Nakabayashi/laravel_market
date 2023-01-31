@@ -1,0 +1,115 @@
+.header_nav {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  padding-top: 10px;
+}
+.header_nav li {
+  margin-right: 30px;
+}
+/* エラーメッセージ用のスタイル */
+.error {
+  color: red;
+}
+/* 成功メッセージ用のスタイル */
+.success {
+  color: green;
+}
+/*いいねボタン*/
+.like_button {
+  cursor: pointer;
+}
+.like {
+  display: inline;
+}
+.like_post {
+    background-color: #dccaca;
+    border-top: solid 1px #e67c2e;
+    border-bottom: solid 1px #e67c2e;
+}
+.like_post .post_body_heading {
+    background-color: #dccaca;
+}
+.like_post .post_comments {
+    background-color: #e4d6c7;
+}
+.like_post .like_button {
+    color: yellow;
+}
+
+/*ログイン*/
+.center{
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*トップページ*/
+.main_center{
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+}
+.top_title{
+  font-style: italic;
+  font-size: 15px;
+}
+
+.item{
+  margin-bottom:30px;
+  list-style: none;
+  border-top:solid 1px black;
+  border-bottom:solid 1px black;
+  padding-top: 10px;
+ 
+}
+
+.item_image{
+  width: 150px;
+  display: flex;
+  
+}
+
+.item_image img{
+   width: 100%;
+}
+
+
+
+.item_main_body{
+  display: inline;
+}
+
+.profile_img{
+  width: 300px;
+  padding-left: 0px;
+  display: flex;
+}
+.profile_img img{
+  width: 100%;
+}
+.a{
+  width: 150px;
+  align-items:center;
+  display: flex;
+}
+.profile{
+  padding-left: 0px;
+}
+.bold{
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.item_img{
+  width: 150px;
+}
+.item_img img{
+  width: 100%;
+}
+.sold{
+  color:red;
+}
+.description{
+  width: 100%;
+}
